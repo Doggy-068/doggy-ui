@@ -5,6 +5,7 @@
   "scripts": {
     "prepare": "husky install",
     "dev": "vite",
+    "test": "vitest run",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md"
@@ -16,10 +17,13 @@
     "@commitlint/cli": "^16.2.4",
     "@commitlint/config-conventional": "^16.2.4",
     "@vitejs/plugin-vue": "^2.3.2",
+    "@vue/test-utils": "^2.0.0-rc.21",
     "conventional-changelog-cli": "^2.2.2",
     "husky": "^7.0.4",
+    "jsdom": "^19.0.0",
     "typescript": "^4.6.4",
     "vite": "^2.9.8",
+    "vitest": "^0.10.5",
     "vue-tsc": "^0.34.11"
   }
 }
