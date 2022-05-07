@@ -2,8 +2,9 @@
   "name": "doggy-ui",
   "private": false,
   "version": "0.0.0",
+  "license": "MIT",
   "scripts": {
-    "prepare": "husky install",
+    "postinstall": "husky install",
     "dev": "vite",
     "test": "vitest run",
     "build": "vue-tsc --noEmit && vite build",
