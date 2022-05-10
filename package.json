@@ -1,5 +1,6 @@
 {
   "name": "doggy-ui",
+  "description": "基于Vue3的UI组件库",
   "private": false,
   "version": "0.0.0",
   "license": "MIT",
@@ -9,6 +10,8 @@
     "test": "vitest run",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md"
   },
   "dependencies": {
@@ -24,6 +27,7 @@
     "jsdom": "^19.0.0",
     "typescript": "^4.6.4",
     "vite": "^2.9.8",
+    "vitepress": "^0.22.4",
     "vitest": "^0.10.5",
     "vue-tsc": "^0.34.11"
   }
