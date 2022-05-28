@@ -4,13 +4,25 @@
   "private": false,
   "version": "0.0.0",
   "license": "MIT",
+  "author": {
+    "name": "Doggy-068",
+    "url": "https://github.com/Doggy-068"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Doggy-068/doggy-ui"
+  },
+  "main": "dist/doggy-ui.es.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "postinstall": "husky install",
     "test:unit": "vitest run",
     "build": "vue-tsc --noEmit && vite build",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "preversion": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md"
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md"
   },
   "dependencies": {
     "vue": "^3.2.33"
