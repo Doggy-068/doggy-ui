@@ -17,13 +17,15 @@
     "skipLibCheck": true,
     "types": [
       "vitest/importMeta"
-    ]
+    ],
+    "baseUrl": "."
   },
   "include": [
-    "src/**/*.ts",
-    "src/**/*.d.ts",
-    "src/**/*.tsx",
-    "src/**/*.vue"
+    "packages/**/*.ts",
+    "packages/**/*.d.ts",
+    "packages/**/*.tsx",
+    "packages/**/*.vue",
+    "env.d.ts"
   ],
   "references": [
     {

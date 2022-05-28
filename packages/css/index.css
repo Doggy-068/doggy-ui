@@ -1,0 +1,41 @@
+:root {
+  --du-primary-color-dark-1: #337ecc;
+  --du-primary-color: #409eff;
+  --du-primary-color-light-1: #79bbff;
+  --du-primary-color-light-2: #a0cfff;
+  --du-primary-color-light-3: #c6e2ff;
+  --du-primary-color-light-4: #d9ecff;
+  --du-primary-color-light-5: #ecf5ff;
+  --du-success-color-dark-1: #529b2e;
+  --du-success-color: #67C23A;
+  --du-success-color-light-1: #95d475;
+  --du-success-color-light-2: #b3e19d;
+  --du-success-color-light-3: #d1edc4;
+  --du-success-color-light-4: #e1f3d8;
+  --du-success-color-light-5: #f0f9eb;
+  --du-info-color-dark-1: #73767a;
+  --du-info-color: #909399;
+  --du-info-color-light-1: #b1b3b8;
+  --du-info-color-light-2: #c8c9cc;
+  --du-info-color-light-3: #dedfe0;
+  --du-info-color-light-4: #e9e9eb;
+  --du-info-color-light-5: #f4f4f5;
+  --du-warning-color-dark-1: #b88230;
+  --du-warning-color: #E6A23C;
+  --du-warning-color-light-1: #eebe77;
+  --du-warning-color-light-2: #f3d19e;
+  --du-warning-color-light-3: #f8e3c5;
+  --du-warning-color-light-4: #faecd8;
+  --du-warning-color-light-5: #fdf6ec;
+  --du-danger-color-dark-1: #c45656;
+  --du-danger-color: #F56C6C;
+  --du-danger-color-light-1: #f89898;
+  --du-danger-color-light-2: #fab6b6;
+  --du-danger-color-light-3: #fcd3d3;
+  --du-danger-color-light-4: #fde2e2;
+  --du-danger-color-light-5: #fef0f0;
+}
+
+:root {
+  --du-border-radius: 4px;
+}

@@ -6,13 +6,11 @@
   "license": "MIT",
   "scripts": {
     "postinstall": "husky install",
-    "dev": "vite",
-    "test": "vitest run",
+    "test:unit": "vitest run",
     "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md"
+    "preversion": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md"
   },
   "dependencies": {
     "vue": "^3.2.33"
@@ -25,6 +23,7 @@
     "conventional-changelog-cli": "^2.2.2",
     "husky": "^7.0.4",
     "jsdom": "^19.0.0",
+    "sass": "^1.52.1",
     "typescript": "^4.6.4",
     "vite": "^2.9.8",
     "vitepress": "^0.22.4",

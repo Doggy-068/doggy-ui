@@ -1,0 +1,25 @@
+$types: (
+  primary,
+  success,
+  info,
+  warning,
+  danger
+);
+
+$sizes: (
+  small,
+  default,
+  large
+);
+
+$size2Height: (
+  small:24px,
+  default:32px,
+  large:40px
+);
+
+$size2FontSize: (
+  small:12px,
+  default:14px,
+  large:16px
+);
