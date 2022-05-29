@@ -12,6 +12,7 @@ export default defineConfig({
     lineNumbers: true
   },
   themeConfig: {
+    repo: 'https://github.com/Doggy-068/doggy-ui',
     nav: [
       { text: '指南', link: '/guide/installation', activeMatch: '/guide/' },
       { text: '组件', link: '/component/button', activeMatch: '/component/' }
