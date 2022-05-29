@@ -1,3 +1,9 @@
+<script lang="ts">
+export default {
+  name: 'DULink'
+}
+</script>
+
 <script setup lang="ts">
 import { ComponentType } from 'packages/constants'
 const props = withDefaults(defineProps<{

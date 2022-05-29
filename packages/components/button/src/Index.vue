@@ -1,3 +1,9 @@
+<script lang="ts">
+export default {
+  name: 'DUButton'
+}
+</script>
+
 <script setup lang="ts">
 import { ComponentType, ComponentSize } from 'packages/constants'
 withDefaults(defineProps<{

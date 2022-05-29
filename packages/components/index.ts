@@ -1,5 +1,7 @@
-import DUButton from './button/src/Index.vue'
+import DUButton from './button'
+import DULink from './link'
 
-export {
-  DUButton
-}
+export const components = [
+  DUButton,
+  DULink
+]
