@@ -12,6 +12,7 @@
     "type": "git",
     "url": "https://github.com/Doggy-068/doggy-ui"
   },
+  "homepage": "https://doggy-068.github.io/doggy-ui/",
   "main": "dist/doggy-ui.es.js",
   "files": [
     "dist"
@@ -21,7 +22,7 @@
     "test:unit": "vitest run",
     "build": "vue-tsc --noEmit && vite build",
     "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
+    "docs:deploy": "vitepress build docs && gh-pages -d docs/.vitepress/dist",
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md"
   },
   "dependencies": {
@@ -33,6 +34,7 @@
     "@vitejs/plugin-vue": "^2.3.2",
     "@vue/test-utils": "^2.0.0-rc.21",
     "conventional-changelog-cli": "^2.2.2",
+    "gh-pages": "^4.0.0",
     "husky": "^7.0.4",
     "jsdom": "^19.0.0",
     "sass": "^1.52.1",

@@ -2,8 +2,12 @@ import { defineConfig } from 'vitepress'
 import packagejson from '../../package.json'
 
 export default defineConfig({
+  base: '/doggy-ui/',
   title: packagejson.name,
   lang: 'zh-CN',
+  head: [
+    ['link', { rel: 'icon', type: 'image/x-cion', href: '/doggy-ui/favicon.ico' }]
+  ],
   markdown: {
     lineNumbers: true
   },
