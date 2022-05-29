@@ -35,6 +35,10 @@ export default defineConfig({
           text: 'Button 按钮',
           children: [],
           link: '/component/button'
+        }, {
+          text: 'Link 链接',
+          children: [],
+          link: '/component/link'
         }]
       }]
     }

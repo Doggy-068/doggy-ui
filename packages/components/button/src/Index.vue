@@ -21,7 +21,7 @@ withDefaults(defineProps<{
 
 <style lang="scss">
 @use 'sass:math';
-@use "../../../scss/index.scss"as *;
+@use "../../../scss/index.scss" as *;
 
 .du-button {
   cursor: pointer;
@@ -33,10 +33,10 @@ withDefaults(defineProps<{
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  transition: background 0.1s;
+  transition: background var(--du-transition-duration);
 
   &:not(:last-of-type) {
-    margin-right: 10px;
+    margin-right: var(--du-gap-col);
   }
 
   @each $type in $types {

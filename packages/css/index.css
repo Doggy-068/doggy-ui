@@ -38,4 +38,7 @@
 
 :root {
   --du-border-radius: 4px;
+  --du-font-size: 14px;
+  --du-gap-col: 10px;
+  --du-transition-duration: 0.1s;
 }
