@@ -41,6 +41,13 @@ export default defineConfig({
           children: [],
           link: '/component/link'
         }]
+      }, {
+        text: '表单组件',
+        children: [{
+          text: 'Input 输入框',
+          children: [],
+          link: '/component/input'
+        }]
       }]
     }
   }

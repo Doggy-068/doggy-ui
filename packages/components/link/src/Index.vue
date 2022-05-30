@@ -7,8 +7,8 @@ export default {
 <script setup lang="ts">
 import { ComponentType } from 'packages/constants'
 const props = withDefaults(defineProps<{
-  type?: ComponentType,
-  disabled?: boolean,
+  type?: ComponentType
+  disabled?: boolean
   underline?: boolean
 }>(), {
   type: 'primary',
@@ -27,7 +27,7 @@ const onClick = (event: Event): void => props.disabled ? event.preventDefault() 
 </template>
 
 <style lang="scss">
-@use '../../../scss/index.scss' as *;
+@use "../../../scss/index.scss" as *;
 
 .du-link {
   cursor: pointer;

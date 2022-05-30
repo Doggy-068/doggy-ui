@@ -26,7 +26,7 @@ withDefaults(defineProps<{
 </template>
 
 <style lang="scss">
-@use 'sass:math';
+@use "sass:math";
 @use "../../../scss/index.scss" as *;
 
 .du-button {
