@@ -7,12 +7,11 @@ export default {
 <script setup lang="ts">
 import { ComponentSize } from 'packages/constants'
 withDefaults(defineProps<{
-  modelValue?: string
+  modelValue: string
   size?: ComponentSize
   disabled?: boolean
   placeholder?: string
 }>(), {
-  modelValue: '',
   size: 'default',
   disabled: false,
   placeholder: '请输入'
@@ -35,8 +34,9 @@ defineEmits<{
   display: inline-block;
   width: 100%;
   box-sizing: border-box;
+  color: var(--du-primary-text-color);
 
-  input {
+  >input {
     transition: border-color var(--du-transition-duration-long);
     box-sizing: border-box;
     font-size: inherit;
@@ -63,16 +63,16 @@ defineEmits<{
       cursor: not-allowed;
     }
   }
+}
 
-  &.du-input-disabled {
-    cursor: not-allowed;
-  }
+.du-input-disabled {
+  cursor: not-allowed;
+}
 
-  @each $size in $sizes {
-    &.du-input-#{$size} {
-      height: map-get($size2Height, $size);
-      font-size: map-get($size2FontSize, $size);
-    }
+@each $size in $sizes {
+  .du-input-#{$size} {
+    height: map-get($size2Height, $size);
+    font-size: map-get($size2FontSize, $size);
   }
 }
 </style>

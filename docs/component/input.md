@@ -26,9 +26,9 @@ const value = ref('')
 ### 禁用
 <br />
 
-<DUInput disabled />
+<DUInput :modelValue="''" disabled />
 ```vue
-<DUInput disabled />
+<DUInput :modelValue="''" disabled />
 ```
 
 ### Input 属性
@@ -36,7 +36,7 @@ const value = ref('')
 
 | 属性 | 说明 | 类型 | 默认值 |
 |:-----|:----|:-----|:-------|
-| modelValue / v-model | 绑定值 | string | '' |
+| modelValue / v-model | 绑定值 | string | - |
 | size | 尺寸 | 'small' &#124; 'default' &#124; 'large' &#124; | 'default' |
 | disabled | 是否禁用 | boolean | false |
 | placeholder | 原生 placeholder 属性 | string | '请输入' |

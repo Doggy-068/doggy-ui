@@ -47,6 +47,10 @@ export default defineConfig({
           text: 'Input 输入框',
           children: [],
           link: '/component/input'
+        }, {
+          text: 'Input Number 数字输入框',
+          children: [],
+          link: '/component/input-number'
         }]
       }]
     }

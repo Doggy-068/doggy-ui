@@ -44,31 +44,31 @@ withDefaults(defineProps<{
   &:not(:last-of-type) {
     margin-right: var(--du-gap-col);
   }
+}
 
-  @each $type in $types {
-    &.du-button-#{$type} {
-      color: #fff;
-      background: var(--du-#{$type}-color);
+@each $type in $types {
+  .du-button-#{$type} {
+    color: #fff;
+    background: var(--du-#{$type}-color);
 
-      &:hover {
-        background: var(--du-#{$type}-color-light-1);
-      }
+    &:hover {
+      background: var(--du-#{$type}-color-light-1);
+    }
 
-      &:active {
-        background: var(--du-#{$type}-color-dark-1);
-      }
+    &:active {
+      background: var(--du-#{$type}-color-dark-1);
     }
   }
+}
 
-  @each $size in $sizes {
-    &.du-button-#{$size} {
-      height: map-get($size2Height, $size);
-      line-height: map-get($size2Height, $size);
-      font-size: map-get($size2FontSize, $size);
+@each $size in $sizes {
+  .du-button-#{$size} {
+    height: map-get($size2Height, $size);
+    line-height: map-get($size2Height, $size);
+    font-size: map-get($size2FontSize, $size);
 
-      &.du-button-round {
-        border-radius: math.div(map-get($size2Height, $size), 2);
-      }
+    &.du-button-round {
+      border-radius: math.div(map-get($size2Height, $size), 2);
     }
   }
 }
