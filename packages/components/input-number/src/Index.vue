@@ -119,6 +119,10 @@ $size2Width: (
       height: map-get($size2Height, $size);
       width: map-get($size2Height, $size);
     }
+
+    >input {
+      padding: 0 calc(#{map-get($size2Height, $size)} + 1em);
+    }
   }
 }
 

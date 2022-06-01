@@ -15,7 +15,7 @@ $ npm install doggy-ui
 ```
 
 ### Hello World
-<iframe height="300" style="width: 100%;" scrolling="no" title="Hello World" src="https://codepen.io/Doggy068/embed/NWyYBJq?default-tab=html%2Cresult&theme-id=light" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe height="300" style="width: 100%;" scrolling="no" title="Hello World" src="https://codepen.io/Doggy068/embed/NWyYBJq?default-tab=html%2Cresult&theme-id=dark" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/Doggy068/pen/NWyYBJq">
   Hello World</a> by Doggy (<a href="https://codepen.io/Doggy068">@Doggy068</a>)
   on <a href="https://codepen.io">CodePen</a>.

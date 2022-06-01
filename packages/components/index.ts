@@ -2,10 +2,12 @@ import DUButton from './button'
 import DULink from './link'
 import DUInput from './input'
 import DUInputNumber from './input-number'
+import DUSwitch from './switch'
 
 export const components = [
   DUButton,
   DULink,
   DUInput,
-  DUInputNumber
+  DUInputNumber,
+  DUSwitch
 ]

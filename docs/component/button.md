@@ -39,13 +39,18 @@ import DUButton from '../../packages/components/button/src/Index.vue'
 ### 尺寸
 <br />
 
-<DUButton size="small">Small</DUButton>
-<DUButton size="default">Default</DUButton>
-<DUButton size="large">Large</DUButton>
+<div style="display: flex; flex-wrap: wrap">
+  <DUButton size="small">Small</DUButton>
+  <DUButton size="default">Default</DUButton>
+  <DUButton size="large">Large</DUButton>
+</div>
+
 ```vue
-<DUButton size="small">Small</DUButton>
-<DUButton size="default">Default</DUButton>
-<DUButton size="large">Large</DUButton>
+<div style="display: flex; flex-wrap: wrap">
+  <DUButton size="small">Small</DUButton>
+  <DUButton size="default">Default</DUButton>
+  <DUButton size="large">Large</DUButton>
+</div>
 ```
 
 ### Button 属性

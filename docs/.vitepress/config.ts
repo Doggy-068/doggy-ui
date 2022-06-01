@@ -51,6 +51,10 @@ export default defineConfig({
           text: 'Input Number 数字输入框',
           children: [],
           link: '/component/input-number'
+        }, {
+          text: 'Switch 开关',
+          children: [],
+          link: '/component/switch'
         }]
       }]
     }
