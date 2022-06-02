@@ -31,7 +31,7 @@ const onClick = (event: Event): void => props.disabled ? event.preventDefault() 
 
 .du-link {
   cursor: pointer;
-  font-size: var(--du-font-size);
+  font-size: var(--du-font-size-default);
   text-decoration: none;
   transition: color var(--du-transition-duration);
 

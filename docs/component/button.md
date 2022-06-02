@@ -61,3 +61,10 @@ import DUButton from '../../packages/components/button/src/Index.vue'
 | type | 类型 | 'primary' &#124; 'success' &#124; 'info' &#124; 'warning' &#124; 'danger' | 'primary' |
 | round | 是否为圆角按钮 | boolean | false |
 | size | 尺寸 | 'small' &#124; 'default' &#124; 'large' &#124; | 'default' |
+
+### Button 插槽
+<br />
+
+| 插槽名 | 说明 |
+|:------|:-----|
+| default | 默认内容 |

@@ -72,7 +72,7 @@ defineEmits<{
 @each $size in $sizes {
   .du-input-#{$size} {
     height: map-get($size2Height, $size);
-    font-size: map-get($size2FontSize, $size);
+    font-size: var(--du-font-size-#{$size});
   }
 }
 </style>

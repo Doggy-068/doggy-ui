@@ -55,7 +55,9 @@
 
 :root {
   --du-border-radius: 4px;
-  --du-font-size: 14px;
+  --du-font-size-large: 16px;
+  --du-font-size-default: 14px;
+  --du-font-size-small: 12px;
   --du-gap-col: 10px;
   --du-transition-duration: 0.1s;
   --du-transition-duration-long: 0.3s;

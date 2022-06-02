@@ -113,7 +113,7 @@ $size2Width: (
   .du-input-number-#{$size} {
     width: map-get($size2Width, $size);
     height: map-get($size2Height, $size);
-    font-size: map-get($size2FontSize, $size);
+    font-size: var(--du-font-size-#{$size});
 
     .du-input-number-control {
       height: map-get($size2Height, $size);

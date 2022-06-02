@@ -65,7 +65,7 @@ withDefaults(defineProps<{
   .du-button-#{$size} {
     height: map-get($size2Height, $size);
     line-height: map-get($size2Height, $size);
-    font-size: map-get($size2FontSize, $size);
+    font-size: var(--du-font-size-#{$size});
 
     &.du-button-round {
       border-radius: math.div(map-get($size2Height, $size), 2);

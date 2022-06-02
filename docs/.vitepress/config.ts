@@ -56,6 +56,13 @@ export default defineConfig({
           children: [],
           link: '/component/switch'
         }]
+      }, {
+        text: '数据组件',
+        children: [{
+          text: 'Badge 徽章',
+          children: [],
+          link: '/component/badge'
+        }]
       }]
     }
   }
