@@ -6,19 +6,25 @@ export default {
 
 <script setup lang="ts">
 import { ComponentType, ComponentSize } from 'packages/constants'
-withDefaults(defineProps<{
+const props = withDefaults(defineProps<{
   type?: ComponentType
   size?: ComponentSize
   round?: boolean
+  disabled?: boolean
 }>(), {
   type: 'primary',
   size: 'default',
-  round: false
+  round: false,
+  disabled: false
 })
+const emits = defineEmits<{
+  (e: 'click'): void
+}>()
+const onClick = () => props.disabled ? null : emits('click')
 </script>
 
 <template>
-  <button class="du-button" :class="[`du-button-${$props.type}`, `du-button-${$props.size}`, $props.round ? 'du-button-round' : '']">
+  <button @click="onClick" class="du-button" :class="[`du-button-${$props.type}`, `du-button-${$props.size}`, $props.round ? 'du-button-round' : '', $props.disabled ? 'du-button-disabled' : '']">
     <span>
       <slot></slot>
     </span>
@@ -46,6 +52,10 @@ withDefaults(defineProps<{
   }
 }
 
+.du-button-disabled {
+  cursor: not-allowed;
+}
+
 @each $type in $types {
   .du-button-#{$type} {
     color: #fff;
@@ -57,6 +67,10 @@ withDefaults(defineProps<{
 
     &:active {
       background: var(--du-#{$type}-color-dark-1);
+    }
+
+    &.du-button-disabled {
+      background: var(--du-#{$type}-color-light-2);
     }
   }
 }

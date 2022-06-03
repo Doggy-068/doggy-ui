@@ -1,5 +1,9 @@
 <script setup>
 import DUButton from '../../packages/components/button/src/Index.vue'
+
+const onClick=()=>{
+  console.log('okk')
+}
 </script>
 
 # Button 按钮
@@ -53,6 +57,14 @@ import DUButton from '../../packages/components/button/src/Index.vue'
 </div>
 ```
 
+### 禁用
+<br />
+
+<DUButton disabled>Disabled</DUButton>
+```vue
+<DUButton disabled>Disabled</DUButton>
+```
+
 ### Button 属性
 <br />
 
@@ -61,6 +73,14 @@ import DUButton from '../../packages/components/button/src/Index.vue'
 | type | 类型 | 'primary' &#124; 'success' &#124; 'info' &#124; 'warning' &#124; 'danger' | 'primary' |
 | round | 是否为圆角按钮 | boolean | false |
 | size | 尺寸 | 'small' &#124; 'default' &#124; 'large' &#124; | 'default' |
+| disabled | 是否禁用 | boolean | false |
+
+### Button 事件
+<br />
+
+| 事件名称 | 说明 | 回调参数 |
+|:--------|:-----|:--------|
+| click | 点击按钮 | - |
 
 ### Button 插槽
 <br />
