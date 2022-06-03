@@ -1,6 +1,11 @@
 {
   "name": "doggy-ui",
   "description": "基于Vue3的UI组件库",
+  "keywords": [
+    "doggy-ui",
+    "component library",
+    "vue"
+  ],
   "private": false,
   "version": "0.0.1",
   "license": "MIT",
@@ -12,8 +17,12 @@
     "type": "git",
     "url": "https://github.com/Doggy-068/doggy-ui"
   },
+  "bugs": {
+    "url": "https://github.com/Doggy-068/doggy-ui/issues"
+  },
   "homepage": "https://doggy-068.github.io/doggy-ui/",
   "main": "dist/doggy-ui.es.js",
+  "jsdelivr": "dist/doggy-ui.umd.js",
   "files": [
     "dist"
   ],
