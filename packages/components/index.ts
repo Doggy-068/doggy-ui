@@ -5,6 +5,7 @@ import DUInputNumber from './input-number'
 import DUSwitch from './switch'
 import DUBadge from './badge'
 import DUTag from './tag'
+import DUProgress from './progress'
 
 export const components = [
   DUButton,
@@ -13,5 +14,6 @@ export const components = [
   DUInputNumber,
   DUSwitch,
   DUBadge,
-  DUTag
+  DUTag,
+  DUProgress
 ]

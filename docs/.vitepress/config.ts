@@ -63,6 +63,10 @@ export default defineConfig({
           children: [],
           link: '/component/badge'
         }, {
+          text: 'Progress 进度条',
+          children: [],
+          link: '/component/progress'
+        }, {
           text: 'Tag 标签',
           children: [],
           link: '/component/tag'
