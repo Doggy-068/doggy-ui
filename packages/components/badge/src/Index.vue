@@ -41,6 +41,7 @@ withDefaults(defineProps<{
   line-height: 1.4em;
   border-radius: 0.7em;
   color: #fff;
+  cursor: default;
 }
 
 @each $type in $types {

@@ -62,6 +62,10 @@ export default defineConfig({
           text: 'Badge 徽章',
           children: [],
           link: '/component/badge'
+        }, {
+          text: 'Tag 标签',
+          children: [],
+          link: '/component/tag'
         }]
       }]
     }
