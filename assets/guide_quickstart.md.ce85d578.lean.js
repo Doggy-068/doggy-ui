@@ -1,0 +1,1 @@
+import{_ as s,c as n,o as a,g as p}from"./app.583f3ecb.js";const m='{"title":"\u5FEB\u901F\u5F00\u59CB","description":"","frontmatter":{},"headers":[{"level":3,"title":"\u7528\u6CD5","slug":"\u7528\u6CD5"}],"relativePath":"guide/quickstart.md"}',e={},t=p("",3),o=[t];function c(r,i,l,u,d,k){return a(),n("div",null,o)}var b=s(e,[["render",c]]);export{m as __pageData,b as default};
