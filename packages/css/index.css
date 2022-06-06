@@ -54,6 +54,7 @@
 }
 
 :root {
+  --du-border-radius-mini: 2px;
   --du-border-radius: 4px;
   --du-font-size-large: 16px;
   --du-font-size-default: 14px;

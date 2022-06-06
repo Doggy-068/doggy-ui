@@ -1,9 +1,5 @@
 <script setup>
 import DUButton from '../../packages/components/button/src/Index.vue'
-
-const onClick=()=>{
-  console.log('okk')
-}
 </script>
 
 # Button 按钮

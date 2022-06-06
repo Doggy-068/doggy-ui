@@ -44,6 +44,10 @@ export default defineConfig({
       }, {
         text: '表单组件',
         children: [{
+          text: 'Checkbox 多选框',
+          children: [],
+          link: '/component/checkbox'
+        }, {
           text: 'Input 输入框',
           children: [],
           link: '/component/input'

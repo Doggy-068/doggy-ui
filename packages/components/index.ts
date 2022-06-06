@@ -6,6 +6,7 @@ import DUSwitch from './switch'
 import DUBadge from './badge'
 import DUTag from './tag'
 import DUProgress from './progress'
+import DUCheckbox from './checkbox'
 
 export const components = [
   DUButton,
@@ -15,5 +16,6 @@ export const components = [
   DUSwitch,
   DUBadge,
   DUTag,
-  DUProgress
+  DUProgress,
+  DUCheckbox
 ]
