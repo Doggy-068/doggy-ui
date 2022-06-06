@@ -32,7 +32,8 @@
     "build": "vue-tsc --noEmit && vite build",
     "docs:dev": "vitepress dev docs",
     "docs:deploy": "vitepress build docs && gh-pages -d docs/.vitepress/dist",
-    "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md"
+    "preversion": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
+    "prepublishOnly": "npm run build"
   },
   "dependencies": {
     "vue": "^3.2.33"
