@@ -10,7 +10,7 @@ $ npm install doggy-ui
 <head>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/doggy-ui@latest/dist/style.css" />
 	<script src="https://cdn.jsdelivr.net/npm/vue@next"></script>
-	<script src="https://cdn.jsdelivr.net/npm/doggy-ui@latest/dist/doggy-ui.umd.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/doggy-ui@latest"></script>
 </head>
 ```
 
