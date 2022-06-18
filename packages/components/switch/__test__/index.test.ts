@@ -4,7 +4,7 @@ import DUSwitch from '../src/Index.vue'
 
 describe('switch test', () => {
   test('create', () => {
-    const wrapper = mount(DUSwitch)
+    const wrapper = mount(DUSwitch, { modelValue: false })
     expect(wrapper.classes()).toContain('du-switch')
   })
 })

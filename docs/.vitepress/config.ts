@@ -79,6 +79,13 @@ export default defineConfig({
           children: [],
           link: '/component/tag'
         }]
+      }, {
+        text: '反馈组件',
+        children: [{
+          text: 'Message 消息',
+          children: [],
+          link: '/component/message'
+        }]
       }]
     }
   }

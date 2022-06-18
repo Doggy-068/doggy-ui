@@ -4,7 +4,7 @@ import DUInput from '../src/Index.vue'
 
 describe('input test', () => {
   test('create', () => {
-    const wrapper = mount(DUInput)
+    const wrapper = mount(DUInput, { modelValue: '' })
     expect(wrapper.classes()).toContain('du-input')
   })
 })
