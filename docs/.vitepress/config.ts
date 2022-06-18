@@ -56,6 +56,10 @@ export default defineConfig({
           children: [],
           link: '/component/input-number'
         }, {
+          text: 'Radio 单选框',
+          children: [],
+          link: '/component/radio'
+        }, {
           text: 'Switch 开关',
           children: [],
           link: '/component/switch'
