@@ -11,6 +11,13 @@ const onClick = () => {
 
 # Message 消息
 
+### 单独引入
+<br />
+
+```ts
+import { DUMessage } from 'doggy-ui'
+```
+
 ### 类型
 <br />
 

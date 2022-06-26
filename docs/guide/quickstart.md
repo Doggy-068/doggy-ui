@@ -9,6 +9,6 @@ import App from './App.vue'
 
 const app = createApp(App)
 
-app.use(DoggyUI)
+app.use(DoggyUI.plugin)
 app.mount('#app')
 ```
