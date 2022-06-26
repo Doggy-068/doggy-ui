@@ -1,5 +1,0 @@
-import{_ as a,c as n,o as s,g as t,a as e}from"./app.583f3ecb.js";const _='{"title":"\u5B89\u88C5","description":"","frontmatter":{},"headers":[{"level":3,"title":"\u4F7F\u7528\u5305\u7BA1\u7406\u5668","slug":"\u4F7F\u7528\u5305\u7BA1\u7406\u5668"},{"level":3,"title":"\u6D4F\u89C8\u5668\u76F4\u63A5\u5F15\u5165","slug":"\u6D4F\u89C8\u5668\u76F4\u63A5\u5F15\u5165"},{"level":3,"title":"Hello World","slug":"hello-world"}],"relativePath":"guide/installation.md"}',p={},l=t("",6),o=e("iframe",{height:"300",style:{width:"100%"},scrolling:"no",title:"Hello World",src:"https://codepen.io/Doggy068/embed/NWyYBJq?default-tab=html%2Cresult&theme-id=dark",frameborder:"no",loading:"lazy",allowtransparency:"true",allowfullscreen:"true"},`
-  See the Pen <a href="https://codepen.io/Doggy068/pen/NWyYBJq">
-  Hello World</a> by Doggy (<a href="https://codepen.io/Doggy068">@Doggy068</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-`,-1),c=[l,o];function i(r,u,d,k,h,g){return s(),n("div",null,c)}var b=a(p,[["render",i]]);export{_ as __pageData,b as default};
