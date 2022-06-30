@@ -8,6 +8,7 @@ export default {
 import { ref } from 'vue'
 import { ComponentSize } from 'packages/constants'
 import { useFocus } from '../../../hooks'
+import { Minus, Plus } from '../../icon/src/components'
 const props = withDefaults(defineProps<{
   modelValue: number
   size?: ComponentSize
@@ -44,16 +45,11 @@ const onInputChange = (event: Event) => {
 <template>
   <div class="du-input-number" :class="[isFocus ? 'du-input-number-focus' : '', `du-input-number-${$props.size}`, $props.disabled ? 'du-input-number-disabled' : '']">
     <span @click="onDecrease" class="du-input-number-control">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-        <line x1="35" y1="50" x2="65" y2="50" stroke="currentColor" stroke-width="3" />
-      </svg>
+      <Minus />
     </span>
     <input :value="$props.modelValue" @change="onInputChange" ref="inputEl" :disabled="$props.disabled" type="text" />
     <span @click="onIncrease" class="du-input-number-control">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-        <line x1="35" y1="50" x2="65" y2="50" stroke="currentColor" stroke-width="3" />
-        <line x1="50" y1="35" x2="50" y2="65" stroke="currentColor" stroke-width="3" />
-      </svg>
+      <Plus />
     </span>
   </div>
 </template>

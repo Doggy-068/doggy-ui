@@ -6,6 +6,7 @@ export default {
 
 <script setup lang="ts">
 import { ComponentSize } from 'packages/constants'
+import { Select } from '../../icon/src/components'
 const props = withDefaults(defineProps<{
   modelValue: boolean
   size?: ComponentSize
@@ -23,9 +24,7 @@ const onCheckboxClick = () => emits('update:modelValue', !props.modelValue)
 <template>
   <div @click="onCheckboxClick" class="du-checkbox" :class="[`du-checkbox-${$props.size}`, $props.modelValue ? 'du-checkbox-checked' : '']">
     <span class="du-checkbox-box">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-        <polyline points="20 50, 50 80, 80 20" stroke="currentColor" stroke-width="8" fill="transparent" />
-      </svg>
+      <Select />
     </span>
     <span>{{ $props.label }}</span>
   </div>
