@@ -19,6 +19,9 @@ defineProps<{
 
 <style lang="scss">
 .du-icon {
-  font-size: var(--du-font-size-default);
+  display: inline-block;
+  font-size: inherit;
+  width: 1em;
+  height: 1em;
 }
 </style>

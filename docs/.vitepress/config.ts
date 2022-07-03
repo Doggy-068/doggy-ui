@@ -37,6 +37,10 @@ export default defineConfig({
           children: [],
           link: '/component/button'
         }, {
+          text: 'Icon 图标',
+          children: [],
+          link: '/component/icon'
+        }, {
           text: 'Link 链接',
           children: [],
           link: '/component/link'
