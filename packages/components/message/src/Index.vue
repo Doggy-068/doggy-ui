@@ -1,3 +1,9 @@
+<script lang="ts">
+export default {
+  name: 'DUMessage'
+}
+</script>
+
 <script setup lang="ts">
 import { ComponentType } from 'packages/constants'
 defineProps<{

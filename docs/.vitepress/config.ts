@@ -89,6 +89,10 @@ export default defineConfig({
           text: 'Message 消息',
           children: [],
           link: '/component/message'
+        }, {
+          text: 'Notification 通知',
+          children: [],
+          link: '/component/notification'
         }]
       }]
     }

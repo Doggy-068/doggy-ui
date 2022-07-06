@@ -51,6 +51,7 @@
   --du-fill-color-light-1: #F5F7FA;
   --du-fill-color-light-2: #FAFAFA;
   --du-fill-color-light-3: #FAFCFF;
+  --du-shadow-light: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
 }
 
 :root {

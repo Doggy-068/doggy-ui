@@ -18,7 +18,7 @@ const onClick = () => {
 import { DUMessage } from 'doggy-ui'
 ```
 
-### 类型
+### 基础使用
 <br />
 
 <DUButton type="primary" @click="onClick">Message</DUButton>
